@@ -1,0 +1,31 @@
+package ali;
+import java.util.Scanner;
+public class Ali {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  int i,m=0,f=0;
+		  Scanner inputa = new Scanner (System.in);
+		  Scanner inputb = new Scanner (System.in);
+		  int a = inputa.nextInt();
+		  int b = inputb.nextInt();
+		  i = 2;
+		  m=(a/b)/2;
+		  if((a/b)==0||(a/b)==1) {
+		  	System.out.println((a%b)+" is not prime number");
+		  }else{
+		  	while(i<=m){
+		  		if((a/b)%i==0){
+		  			System.out.println((a/b)+" is not prime number");
+		  			f=1;
+		  			break;
+		  		}
+		  		i++;
+		  	}
+		  	if(f==0) {System.out.println((a/b)+" is prime nuber");}
+		  }
+
+
+
+
+
+	
