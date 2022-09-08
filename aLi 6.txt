@@ -1,6 +1,6 @@
-package ali;
+	package ali;
 import java.util.Scanner;
-public class Ali {
+public class Ali{ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  int i,m=0,f=0;
@@ -21,11 +21,8 @@ public class Ali {
 		  		}
 		  		i++;
 		  	}
-		  	if(f==0) {System.out.println((a/b)+" is prime nuber");}
+		  	if(f==0) {System.out.println((a/b)+" is prime number");}
+		 
 		  }
-
-
-
-
-
-	
+         }
+}
